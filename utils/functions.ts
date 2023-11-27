@@ -30,7 +30,7 @@ export const _deleteImages = async (downloadURLs: string[]) => {
     try {
       await deleteObject(storageRef);
       console.log(`Image with URL ${url} deleted successfully`);
-    } catch (error) {
+    } catch (error: any) {
       console.error(`Error deleting image with URL ${url}:`, error.message);
     }
   });
@@ -39,7 +39,7 @@ export const _deleteImages = async (downloadURLs: string[]) => {
   try {
     await Promise.all(deletePromises);
     console.log('All images deleted successfully');
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error deleting images:', error.message);
   }
 };
