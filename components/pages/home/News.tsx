@@ -29,7 +29,7 @@ function News() {
         </div>
         <div className='md:block hidden w-[50%] h-[17rem]'>
           <Image
-            src={'/images/computer_1.jpg'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/computer_1.jpg?alt=media&token=cbd9736b-7820-49a0-a333-cf75e28f91f9'} 
             height={500} 
             width={1000} 
             className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up"

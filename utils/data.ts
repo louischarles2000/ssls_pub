@@ -5,7 +5,7 @@ export const _programs: ProgramType[] = [
   {
     _id: 'zaw234d',
     title: 'Land Rights in Transition',
-    image: '/images/program_1.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/program_1.jpg?alt=media&token=7cd911be-36b1-445c-a9b4-859ca3c2582e',
     content: [
       {
         type: 'p',
@@ -33,7 +33,7 @@ export const _programs: ProgramType[] = [
   {
     _id: '0003esd',
     title: 'Constitutional Development',
-    image: '/images/program_2.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/program_2.jpg?alt=media&token=a2981401-f426-4b42-9060-d5e03b072573',
     content: [
       {
         type: 'p',
@@ -67,7 +67,7 @@ export const _programs: ProgramType[] = [
   {
     _id: 'zaw3esd',
     title: 'Legal Aid',
-    image: '/images/program_3.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/program_3.jpg?alt=media&token=b5b83d27-7e0d-48dd-a8fa-62d983b2340d',
     content: [
       {
         type: 'p',
@@ -103,7 +103,7 @@ export const _posts: PostType[] = [
     content: 'UK law and accounting firms are being invited to take advantage of funded support to explore how they can make better use of digital technology and artificial intelligence (AI) to become more productive and develop new services.',
     type: PostTypeEnum.Blog,
     date: '20 November 2023',
-    image: '/images/computer_1.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/computer_1.jpg?alt=media&token=cbd9736b-7820-49a0-a333-cf75e28f91f9',
     resources: [],
     tags: ['Computer', 'AI', 'Technology']
   },
@@ -122,7 +122,7 @@ export const _posts: PostType[] = [
     `,
     type: PostTypeEnum.News,
     date: '20 November 2023',
-    image: '/images/post_1.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/post_1.jpg?alt=media&token=f671b298-ef68-401e-ad62-5c2d52a0d02b',
     resources: [],
     tags: ['Computer', 'AI', 'Technology']
   },
@@ -132,7 +132,7 @@ export const _posts: PostType[] = [
     content: 'UK law and accounting firms are being invited to take advantage of funded support to explore how they can make better use of digital technology and artificial intelligence (AI) to become more productive and develop new services.',
     type: PostTypeEnum.Blog,
     date: '20 November 2023',
-    image: '/images/lawyers_1.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/lawyers_1.jpg?alt=media&token=86247adc-ab57-4084-8f93-cd0daaaf0c5e',
     resources: [],
     tags: ['Computer', 'AI', 'Technology']
   },
@@ -148,7 +148,7 @@ export const _posts: PostType[] = [
     `,
     type: PostTypeEnum.Blog,
     date: '20 November 2023',
-    image: '/images/lawyer_2.jpg',
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/lawyer_2.jpg?alt=media&token=597d8b5b-b391-456c-b7ae-bddf6411deb7',
     resources: [],
     tags: ['Computer', 'AI', 'Technology']
   }
@@ -158,17 +158,17 @@ export const _membership_info: BasicCardProps[] = [
   {
     title: 'Members-Only Portal',
     description: 'Access our secure members-only portal for exclusive content, research materials, and resources. Stay up to date with the latest legal publications, research papers, and industry reports available only to our valued members.',
-    image: '/images/portal_1.jpg'
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/portal_1.jpg?alt=media&token=156489cd-08b1-4d9b-aa20-43cce3239e7c'
   },
   {
     title: 'Webinars and Workshops',
     description: ' Attend our webinars and workshops to stay abreast of the latest legal developments. Engage with expert speakers, participate in discussions, and gain valuable knowledge on emerging topics and best practices in various legal fields.',
-    image: '/images/webner_1.jpg'
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/webner_1.jpg?alt=media&token=0225e201-d150-4626-b7e4-ee2417ab7b2f'
   },
   {
     title: 'Encouraging Continuous Learning',
     description: ' Mentorship fosters a culture of continuous learning. Mentors encourage mentees to pursue professional development opportunities, attend relevant courses, and engage in ongoing education to stay at the forefront of legal knowledge.',
-    image: '/images/mentor_1.jpg'
+    image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/mentor_1.jpg?alt=media&token=ed9b8442-0f06-46c9-94bb-534a9753341b'
   },
 ]
 

@@ -4,6 +4,9 @@ const nextConfig = {
     remotePatterns: [
       {
         hostname: 'www.sslawsociety.org'
+      },
+      {
+        hostname: 'firebasestorage.googleapis.com'
       }
     ]
   }

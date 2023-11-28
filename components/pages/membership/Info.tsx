@@ -26,7 +26,7 @@ function Info() {
       <FadeIn className='md:flex md:h-[16rem] mb-[2rem]'>
         <div className='md:w-[50%] md:h-full h-[15rem]'>
           <Image
-            src={'/images/freshers.jpg'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/freshers.jpg?alt=media&token=af4d4b5b-208e-490b-84da-41ab90adf926'} 
             height={500} 
             width={1000} 
             className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up"
@@ -52,7 +52,7 @@ function Info() {
         </div>
         <div className='md:w-[50%] md:h-full h-[15rem]'>
           <Image
-            src={'/images/firm.jpg'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/firm.jpg?alt=media&token=e91f67fb-a6b1-4d63-aaf5-2b6a188d8ce2'} 
             height={500} 
             width={1000} 
             className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up"

@@ -7,11 +7,11 @@ function TopCarousel() {
   const slides = [
     {
       route: '/',
-      image: '/images/banner_1.png'
+      image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/banner_1.png?alt=media&token=e17d1afa-1eb9-4318-b368-569c087e16b6'
     },
     {
       route: '/',
-      image: '/images/banner_1.png'
+      image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/banner_1.png?alt=media&token=e17d1afa-1eb9-4318-b368-569c087e16b6'
     },
   ]
   return (

@@ -11,18 +11,18 @@ function TopHeader() {
   const slides = [
     {
       route: '/',
-      image: '/images/banner_1.png'
+      image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/banner_1.png?alt=media&token=e17d1afa-1eb9-4318-b368-569c087e16b6'
     },
     {
       route: '/',
-      image: '/images/banner_1.png'
+      image: 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/banner_1.png?alt=media&token=e17d1afa-1eb9-4318-b368-569c087e16b6'
     },
   ]
   return (
     <div 
       className="w-full lg:h-[80vh] md:h-[60vh] h-auto overflow-hidden relative bg-orange-50 bg-fixed bg-cover lg:px-5 lg:py-[5rem] border-b-[1px]"
       style={{ 
-        backgroundImage: "url('/images/cover_2.jpeg')", 
+        backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/cover_2.jpeg?alt=media&token=34db4b84-254e-4469-a505-f65b53563bf5')", 
         backgroundPosition: 'right',
       }}
       >

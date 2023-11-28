@@ -21,7 +21,7 @@ function Membership() {
       <div className='flex gap-6 justify-evenly lg:px-[5rem] items-center'>
         <FadeIn className='lg:w-[35%] md:block hidden h-auto'>
           <Image
-            src={'/images/lawyers_1.jpg'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/lawyers_1.jpg?alt=media&token=86247adc-ab57-4084-8f93-cd0daaaf0c5e'} 
             height={500} 
             width={1000} 
             className="h-auto lg:w-full w-[50%] mx-auto object-cover blur-none cursor-pointer animate-fade-up"
@@ -45,7 +45,7 @@ function Membership() {
         </FadeIn> 
         <FadeIn className='lg:w-[35%] md:block hidden h-auto'>
           <Image
-            src={'/images/lawyer_2.jpg'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/lawyer_2.jpg?alt=media&token=597d8b5b-b391-456c-b7ae-bddf6411deb7'} 
             height={500} 
             width={1000} 
             className="h-auto lg:w-full w-[50%] mx-auto object-cover blur-none cursor-pointer animate-fade-up"
@@ -57,7 +57,7 @@ function Membership() {
       <div className='flex gap-6 justify-evenly lg:px-[5rem] items-center'>
         <FadeIn className='lg:w-[35%] md:block hidden h-auto'>
           <Image
-            src={'/images/lawyer_1.webp'} 
+            src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/lawyer_1.webp?alt=media&token=c0b6d340-7861-44a8-8f6c-8a9827fb2fc1'} 
             height={500} 
             width={1000} 
             className="h-auto lg:w-full w-[50%] mx-auto object-cover blur-none cursor-pointer animate-fade-up"

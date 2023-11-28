@@ -11,9 +11,9 @@ function MembershipCard({ title, description, image }: BasicCardProps) {
       <div className='w-full h-[13rem]'>
         <Image
           src={image} 
-          height={500} 
-          width={1000} 
-          className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up"
+          height={300} 
+          width={600} 
+          className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up bg-blue-gray-50"
           alt='img'
           />
       </div>

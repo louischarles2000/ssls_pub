@@ -8,7 +8,7 @@ function Action() {
     <div className='flex md:w-[80%] w-full mx-auto shadow-sm mb-[8rem]'>
       <div className='md:block hidden w-[40%] h-[20rem]'>
         <Image
-          src={'/images/consult.jpeg'} 
+          src={'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/consult.jpeg?alt=media&token=08f25e77-1f11-4e3a-a9cd-c0686ad9edbb'} 
           height={500} 
           width={1000} 
           className="w-full h-full mx-auto object-cover blur-none cursor-pointer animate-fade-up"

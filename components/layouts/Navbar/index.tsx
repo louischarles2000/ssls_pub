@@ -34,6 +34,9 @@ const navs = [
   //   name: 'Contact us'
   // },
 ]
+
+const _logo_big = 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/ssls_logo.png?alt=media&token=5d117eb4-32c2-46c5-9f7a-b365b124ffb4'
+const _logo_small = 'https://firebasestorage.googleapis.com/v0/b/constant-disk-406311.appspot.com/o/image1.png?alt=media&token=c1cac7cc-f36d-4236-8eda-b13a75417dbe'
 function Navbar() {
   const [ open, setOpen ] = useState(false);
 
@@ -45,8 +48,8 @@ function Navbar() {
     `}>
       <div className=' flex justify-between items-center'>
         <Link href={'/'} className='cursor-pointer'>
-          <Image src='/images/ssls_logo.png' height={100} width={300} alt='ssls' className='lg:block hidden'/>
-          <Image src='/images/image1.png' height={60} width={60} alt='ssls' className='lg:hidden'/>
+          <Image src={_logo_big} height={100} width={300} alt='ssls' className='lg:block hidden'/>
+          <Image src={_logo_small} height={60} width={60} alt='ssls' className='lg:hidden'/>
         </Link>
         
         <Image 
